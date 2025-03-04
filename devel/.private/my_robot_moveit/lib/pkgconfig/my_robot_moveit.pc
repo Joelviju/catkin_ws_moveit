@@ -1,0 +1,8 @@
+prefix=/home/joel/catkin_ws/devel/.private/my_robot_moveit
+
+Name: my_robot_moveit
+Description: Description of my_robot_moveit
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

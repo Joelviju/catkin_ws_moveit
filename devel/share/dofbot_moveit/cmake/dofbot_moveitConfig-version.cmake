@@ -1,0 +1,1 @@
+/home/joel/catkin_ws/devel/.private/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig-version.cmake

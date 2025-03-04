@@ -1,0 +1,57 @@
+[35m[1mScanning dependencies of target dofbot_kinematics_autogen[0m
+[  8%] [34m[1mAutomatic MOC for target 01_random_move[0m
+[ 13%] [34m[1mAutomatic MOC for target dofbot_kinematics[0m
+[ 13%] [34m[1mAutomatic MOC for target 02_motion_plan[0m
+[ 17%] [34m[1mAutomatic MOC for target 03_attached_object[0m
+[ 17%] Built target 03_attached_object_autogen
+[ 17%] Built target 02_motion_plan_autogen
+[ 17%] Built target 01_random_move_autogen
+[ 17%] Built target dofbot_kinematics_autogen
+[35m[1mScanning dependencies of target dofbot_kinematics[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/02_motion_plan.dir/02_motion_plan_autogen/mocs_compilation.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/01_random_move.dir/01_random_move_autogen/mocs_compilation.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/03_attached_object.dir/03_attached_object_autogen/mocs_compilation.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/02_motion_plan.dir/src/02_motion_plan.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/dofbot_kinematics.dir/dofbot_kinematics_autogen/mocs_compilation.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/01_random_move.dir/src/01_random_move.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/03_attached_object.dir/src/03_attached_object.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared library /home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/libdofbot_kinematics.so[0m
+[ 52%] Built target dofbot_kinematics
+[ 60%] [34m[1mAutomatic MOC for target dofbot_kinematics_ik[0m
+[ 60%] [34m[1mAutomatic MOC for target dofbot_kinematics_fk[0m
+[ 60%] Built target dofbot_kinematics_fk_autogen
+[ 60%] Built target dofbot_kinematics_ik_autogen
+[35m[1mScanning dependencies of target dofbot_kinematics_ik[0m
+[35m[1mScanning dependencies of target dofbot_kinematics_fk[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/dofbot_kinematics_ik.dir/dofbot_kinematics_ik_autogen/mocs_compilation.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/dofbot_kinematics_fk.dir/dofbot_kinematics_fk_autogen/mocs_compilation.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/dofbot_kinematics_ik.dir/src/dofbot_kinematics_ik.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/dofbot_kinematics_fk.dir/src/dofbot_kinematics_fk.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable /home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_ik[0m
+[ 86%] [32m[1mLinking CXX executable /home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_fk[0m
+[01m[K/home/joel/catkin_ws/src/dofbot_moveit/src/02_motion_plan.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/joel/catkin_ws/src/dofbot_moveit/src/02_motion_plan.cpp:57:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K-Wdeprecated-declarations[m[K]
+   57 |         const moveit::planning_interface::MoveItErrorCode &[01;35m[Kcode[m[K = dofbot.plan(plan);
+      |                                                            [01;35m[K^~~~[m[K
+In file included from [01m[K/home/joel/catkin_ws/src/dofbot_moveit/src/02_motion_plan.cpp:3[m[K:
+[01m[K/opt/ros/noetic/include/moveit/move_group_interface/move_group_interface.h:64:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   64 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/dofbot_kinematics_fk.dir/src/dofbot_kinematics_fk.cpp.o: in function `main':
+dofbot_kinematics_fk.cpp:(.text+0xfb): undefined reference to `Dofbot::dofbot_getFK(char const*, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/dofbot_kinematics_fk.dir/build.make:309: /home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_fk] Error 1
+make[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/dofbot_kinematics_fk.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: CMakeFiles/dofbot_kinematics_ik.dir/src/dofbot_kinematics_ik.cpp.o: in function `main':
+dofbot_kinematics_ik.cpp:(.text+0x1ca): undefined reference to `Dofbot::dofbot_getIK(char const*, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/dofbot_kinematics_ik.dir/build.make:309: /home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/dofbot_kinematics_ik] Error 1
+make[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/dofbot_kinematics_ik.dir/all] Error 2
+[ 91%] [32m[1mLinking CXX executable /home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/01_random_move[0m
+[ 95%] [32m[1mLinking CXX executable /home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/02_motion_plan[0m
+[ 95%] Built target 01_random_move
+[ 95%] Built target 02_motion_plan
+[100%] [32m[1mLinking CXX executable /home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/03_attached_object[0m
+[100%] Built target 03_attached_object
+make: *** [Makefile:141: all] Error 2

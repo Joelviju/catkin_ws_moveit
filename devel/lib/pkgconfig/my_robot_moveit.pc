@@ -1,0 +1,1 @@
+/home/joel/catkin_ws/devel/.private/my_robot_moveit/lib/pkgconfig/my_robot_moveit.pc

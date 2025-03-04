@@ -1,0 +1,1 @@
+/home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/pkgconfig/dofbot_moveit.pc
