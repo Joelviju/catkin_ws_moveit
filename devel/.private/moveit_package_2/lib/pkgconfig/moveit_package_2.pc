@@ -1,0 +1,8 @@
+prefix=/home/joel/catkin_ws/devel/.private/moveit_package_2
+
+Name: moveit_package_2
+Description: Description of moveit_package_2
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

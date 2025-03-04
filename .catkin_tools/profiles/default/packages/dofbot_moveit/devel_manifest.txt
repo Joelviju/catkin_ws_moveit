@@ -2,8 +2,4 @@ dofbot_moveit
 /home/joel/catkin_ws/devel/.private/dofbot_moveit/cmake.lock /home/joel/catkin_ws/devel/./cmake.lock
 /home/joel/catkin_ws/devel/.private/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig.cmake /home/joel/catkin_ws/devel/share/dofbot_moveit/cmake/dofbot_moveitConfig.cmake
 /home/joel/catkin_ws/devel/.private/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig-version.cmake /home/joel/catkin_ws/devel/share/dofbot_moveit/cmake/dofbot_moveitConfig-version.cmake
-/home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/libdofbot_kinematics.so /home/joel/catkin_ws/devel/lib/libdofbot_kinematics.so
 /home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/pkgconfig/dofbot_moveit.pc /home/joel/catkin_ws/devel/lib/pkgconfig/dofbot_moveit.pc
-/home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/03_attached_object /home/joel/catkin_ws/devel/lib/dofbot_moveit/03_attached_object
-/home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/01_random_move /home/joel/catkin_ws/devel/lib/dofbot_moveit/01_random_move
-/home/joel/catkin_ws/devel/.private/dofbot_moveit/lib/dofbot_moveit/02_motion_plan /home/joel/catkin_ws/devel/lib/dofbot_moveit/02_motion_plan

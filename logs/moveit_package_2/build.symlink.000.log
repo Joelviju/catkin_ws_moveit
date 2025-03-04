@@ -1,0 +1,3 @@
+Symlinking /home/joel/catkin_ws/devel/share/moveit_package_2/cmake/moveit_package_2Config-version.cmake
+Symlinking /home/joel/catkin_ws/devel/share/moveit_package_2/cmake/moveit_package_2Config.cmake
+Symlinking /home/joel/catkin_ws/devel/lib/pkgconfig/moveit_package_2.pc
